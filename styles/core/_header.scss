@@ -1,4 +1,15 @@
+@import '../lib/variables';
+
 header {
-  font-size: 2rem;
-  color: $rootColor;
+  color: $accentColor;
+  h1 {
+    font-weight: 800;
+    font-size: 3rem;
+    margin: 60px 0 0 0;
+    text-decoration: underline;
+  }
+  p {
+    font-size: 1.2rem;
+    margin-top: 8px;
+  }
 }
