@@ -3,13 +3,41 @@ body {
   margin: 0 auto;
   text-align: center;
   font-family: Raleway;
-  background: $rootColor;
+  background: $space;
   color: $accentColor;
   height: 100%;
 }
 
 .content {
   min-height: calc(100vh - 70px);
+}
+
+// ========================= MAIN CONTENT ========================
+
+.quotes {
+  display: flex;
+  flex-flow: wrap;
+  max-width: 1000px;
+  margin: 100px auto 30px;
+
+  li {
+    width: 250px;
+    height: 300px;
+    list-style-type: none;
+    margin: 20px 20px;
+    background: $rootColor;
+    border-radius: 5px;
+    padding: 15px 20px;
+
+    .quote {
+      text-align: left;
+      line-height: 1.5rem;
+    }
+
+    .author {
+      font-weight: bold;
+    }
+  }
 }
 
 // ========================= NAV =====================
