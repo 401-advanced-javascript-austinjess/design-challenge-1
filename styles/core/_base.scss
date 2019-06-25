@@ -28,6 +28,7 @@ body {
     background: $rootColor;
     border-radius: 5px;
     padding: 15px 25px;
+    position: relative;
 
     .quote {
       text-align: left;
@@ -36,6 +37,9 @@ body {
 
     .author {
       font-weight: bold;
+      position: absolute;
+      bottom: 10px;
+      left: 90px;
     }
   }
 }
