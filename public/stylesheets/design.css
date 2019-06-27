@@ -16,7 +16,7 @@ body {
   display: flex;
   flex-flow: wrap;
   max-width: 1100px;
-  margin: 100px auto 30px;
+  margin: 100px auto 100px;
 }
 .quotes li {
   width: 250px;
@@ -48,8 +48,9 @@ nav ul {
 }
 nav ul li {
   cursor: pointer;
-  padding: 10px;
+  padding: 5px 15px;
   transition: ease 1s;
+  border-radius: 3px;
 }
 nav ul li:hover {
   background: #33c5cf;
