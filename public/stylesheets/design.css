@@ -48,6 +48,11 @@ nav ul {
 }
 nav ul li {
   cursor: pointer;
+  padding: 10px;
+  transition: ease 1s;
+}
+nav ul li:hover {
+  background: #33c5cf;
 }
 
 header {
