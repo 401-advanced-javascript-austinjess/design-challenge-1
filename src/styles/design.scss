@@ -4,3 +4,7 @@
 @import './core/header';
 @import './core/footer';
 @import './core/reset';
+
+.quotes li {
+  @include shadowedBorder();
+}

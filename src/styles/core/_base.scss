@@ -1,0 +1,68 @@
+body {
+  padding: 30px 60px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Raleway;
+  background: $space;
+  color: $accentColor;
+  height: 100%;
+}
+
+.content {
+  min-height: calc(100vh - 70px);
+}
+
+// ========================= MAIN CONTENT ========================
+
+.quotes {
+  display: flex;
+  flex-flow: wrap;
+  max-width: 1100px;
+  margin: 100px auto 100px;
+
+  li {
+    width: 250px;
+    height: 300px;
+    list-style-type: none;
+    margin: 20px 20px;
+    background: $rootColor;
+    border-radius: 5px;
+    padding: 15px 25px;
+    position: relative;
+
+    .quote {
+      text-align: left;
+      line-height: 1.5rem;
+    }
+
+    .author {
+      font-weight: bold;
+      position: absolute;
+      bottom: 10px;
+      left: 90px;
+    }
+  }
+}
+
+// ========================= NAV =====================
+
+nav {
+  ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    font-weight: 800;
+    letter-spacing: 1.2px;
+
+    li {
+      cursor: pointer;
+      padding: 5px 15px;
+      transition: ease 1s;
+      border-radius: 3px;
+    }
+
+    li:hover {
+      background: $rootColor;
+    }
+  }
+}
