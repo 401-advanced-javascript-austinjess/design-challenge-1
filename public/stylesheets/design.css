@@ -39,23 +39,6 @@ body {
   left: 90px;
 }
 
-nav ul {
-  display: flex;
-  list-style: none;
-  justify-content: space-evenly;
-  font-weight: 800;
-  letter-spacing: 1.2px;
-}
-nav ul li {
-  cursor: pointer;
-  padding: 5px 15px;
-  transition: ease 1s;
-  border-radius: 3px;
-}
-nav ul li:hover {
-  background: #33c5cf;
-}
-
 header {
   color: #122c56;
 }
@@ -85,6 +68,44 @@ footer {
   -webkit-box-shadow: 3px 3px 5px 6px #ccc;
   -mox-box-shadow: 3px 3px 5px 6px #ccc;
   box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  font-weight: 800;
+  letter-spacing: 1.2px;
+}
+nav ul li {
+  cursor: pointer;
+  padding: 5px 15px;
+  transition: ease 1s;
+  border-radius: 3px;
+}
+nav ul li:hover {
+  background: #33c5cf;
+}
+@media (max-width: 600px) {
+  nav ul {
+    display: none;
+  }
+  nav #toggle {
+    display: block;
+    cursor: pointer;
+  }
+  nav i {
+    position: absolute;
+    cursor: pointer;
+  }
+}
+
+.active {
+  display: block;
+}
+
+#toggle {
+  display: none;
 }
 
 /*# sourceMappingURL=design.css.map */

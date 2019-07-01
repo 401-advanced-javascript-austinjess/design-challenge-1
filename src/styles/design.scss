@@ -8,3 +8,15 @@
 .quotes li {
   @include shadowedBorder();
 }
+
+nav {
+  @include nav();
+}
+
+.active {
+  display: block;
+}
+
+#toggle {
+  display: none;
+}
