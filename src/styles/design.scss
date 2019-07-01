@@ -9,6 +9,8 @@
   @include shadowedBorder();
 }
 
+// NAV STUFF
+
 nav {
   @include nav();
 }
@@ -19,4 +21,26 @@ nav {
 
 #toggle {
   display: none;
+}
+
+aside {
+  height: 600px;
+}
+
+main aside ul {
+  border: 1px solid $rootColor;
+  margin-right: 100px;
+  border-radius: 5px;
+  padding: 20px;
+  vertical-align: center;
+}
+
+main aside ul,
+aside {
+  display: inline-block;
+  width: 200px;
+
+  li {
+    display: block;
+  }
 }
