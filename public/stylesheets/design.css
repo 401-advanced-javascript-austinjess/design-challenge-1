@@ -13,10 +13,11 @@ body {
 }
 
 .quotes {
-  display: flex;
+  display: inline-flex;
   flex-flow: wrap;
-  max-width: 1100px;
-  margin: 100px auto 100px;
+  max-width: 900px;
+  margin: 80px 0;
+  padding: 0;
 }
 .quotes li {
   width: 250px;
@@ -106,6 +107,28 @@ nav ul li:hover {
 
 #toggle {
   display: none;
+}
+
+aside {
+  height: 600px;
+}
+
+main aside ul {
+  border: 1px solid #33c5cf;
+  margin-right: 100px;
+  border-radius: 5px;
+  padding: 20px;
+  vertical-align: center;
+}
+
+main aside ul,
+aside {
+  display: inline-block;
+  width: 200px;
+}
+main aside ul li,
+aside li {
+  display: block;
 }
 
 /*# sourceMappingURL=design.css.map */
