@@ -13,10 +13,11 @@ body {
 }
 
 .quotes {
-  display: flex;
+  display: inline-flex;
   flex-flow: wrap;
-  max-width: 1100px;
-  margin: 100px auto 100px;
+  max-width: 900px;
+  margin: 80px 0;
+  padding: 0;
 }
 .quotes li {
   width: 250px;
@@ -37,23 +38,6 @@ body {
   position: absolute;
   bottom: 10px;
   left: 90px;
-}
-
-nav ul {
-  display: flex;
-  list-style: none;
-  justify-content: space-evenly;
-  font-weight: 800;
-  letter-spacing: 1.2px;
-}
-nav ul li {
-  cursor: pointer;
-  padding: 5px 15px;
-  transition: ease 1s;
-  border-radius: 3px;
-}
-nav ul li:hover {
-  background: #33c5cf;
 }
 
 header {
@@ -85,6 +69,66 @@ footer {
   -webkit-box-shadow: 3px 3px 5px 6px #ccc;
   -mox-box-shadow: 3px 3px 5px 6px #ccc;
   box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  font-weight: 800;
+  letter-spacing: 1.2px;
+}
+nav ul li {
+  cursor: pointer;
+  padding: 5px 15px;
+  transition: ease 1s;
+  border-radius: 3px;
+}
+nav ul li:hover {
+  background: #33c5cf;
+}
+@media (max-width: 600px) {
+  nav ul {
+    display: none;
+  }
+  nav #toggle {
+    display: block;
+    cursor: pointer;
+  }
+  nav i {
+    position: absolute;
+    cursor: pointer;
+  }
+}
+
+.active {
+  display: block;
+}
+
+#toggle {
+  display: none;
+}
+
+aside {
+  height: 600px;
+}
+
+main aside ul {
+  border: 1px solid #33c5cf;
+  margin-right: 100px;
+  border-radius: 5px;
+  padding: 20px;
+  vertical-align: center;
+}
+
+main aside ul,
+aside {
+  display: inline-block;
+  width: 200px;
+}
+main aside ul li,
+aside li {
+  display: block;
 }
 
 /*# sourceMappingURL=design.css.map */

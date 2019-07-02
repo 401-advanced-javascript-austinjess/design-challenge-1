@@ -8,3 +8,39 @@
 .quotes li {
   @include shadowedBorder();
 }
+
+// NAV STUFF
+
+nav {
+  @include nav();
+}
+
+.active {
+  display: block;
+}
+
+#toggle {
+  display: none;
+}
+
+aside {
+  height: 600px;
+}
+
+main aside ul {
+  border: 1px solid $rootColor;
+  margin-right: 100px;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: $rootColor;
+}
+
+main aside ul,
+aside {
+  display: inline-block;
+  width: 200px;
+
+  li {
+    display: block;
+  }
+}
