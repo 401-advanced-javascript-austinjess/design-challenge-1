@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Design Challenge</title>
     <link rel="stylesheet" href="public/stylesheets/design.css" />
+    <link rel="stylesheet" href="public/stylesheets/core/form.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Raleway:400,800&display=swap"
       rel="stylesheet"
@@ -31,6 +32,24 @@
       <p>This is my nice tagline!</p>
     </header>
     <main class="content">
+      <form>
+        <h2>Add A New Quote!</h2>
+        <section>
+          <label>SELECT CHARACTER:</label>
+          <select>
+            <option>Michael Scott</option>
+            <option>Dwight Schrute</option>
+            <option>Andy Bernard</option>
+            <option>Jim Halpert</option>
+            <option>Creed Bratton</option>
+            <option>Gabe Lewis</option>
+          </select>
+
+          <label>QUOTE:</label>
+          <textarea placeholder="Quote goes here..."></textarea>
+          <input type="submit" value="SUBMIT" />
+        </section>
+      </form>
       <ul class="quotes">
         <li>
           <p class="quote">
