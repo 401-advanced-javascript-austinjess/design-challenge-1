@@ -1,0 +1,42 @@
+@import '../lib/variables';
+
+.table-wrapper {
+  margin: 0 auto;
+  text-align: left;
+  display: inline-block;
+
+  h3 {
+    text-align: center;
+    font-size: 1.7rem;
+  }
+
+  table {
+    border-collapse: collapse;
+    // display: block;
+    table-layout: fixed;
+    width: 700px;
+    margin-bottom: 50px;
+
+    thead {
+      background: #9ae7ed;
+
+      th {
+        padding: 10px;
+      }
+    }
+
+    tbody tr:hover {
+      background-color: $rootColor;
+    }
+  }
+
+  td {
+    padding: 15px;
+    border-bottom: 1px solid #9ae7ed;
+  }
+}
+
+.table-image {
+  height: 100px;
+  width: 100px;
+}
