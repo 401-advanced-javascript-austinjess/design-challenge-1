@@ -17,13 +17,13 @@
   background: #9ae7ed;
 }
 .table-wrapper table thead th {
-  padding: 10px 0;
+  padding: 10px;
 }
 .table-wrapper table tbody tr:hover {
   background-color: #33c5cf;
 }
 .table-wrapper td {
-  padding: 15px 0;
+  padding: 15px;
   border-bottom: 1px solid #9ae7ed;
 }
 

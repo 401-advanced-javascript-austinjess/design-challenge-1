@@ -20,12 +20,8 @@
     thead {
       background: #9ae7ed;
 
-      tr {
-        // padding: 10px;
-      }
-
       th {
-        padding: 10px 0;
+        padding: 10px;
       }
     }
 
@@ -35,7 +31,7 @@
   }
 
   td {
-    padding: 15px 0;
+    padding: 15px;
     border-bottom: 1px solid #9ae7ed;
   }
 }
